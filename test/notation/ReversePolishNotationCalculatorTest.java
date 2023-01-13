@@ -26,7 +26,7 @@ public class ReversePolishNotationCalculatorTest {
 
     @Test
     public void shouldCalculateNegativeNumbers() {
-        Assertions.assertEquals(-2, calculator.calculatePolishNotation("-1 -1 +"));
+        Assertions.assertEquals(-2, calculator.calculatePolishNotation("-1 -1 2 + -"));
     }
     @Test
     public void shouldNotCalculateNumbersNotSplitBySpace() {
