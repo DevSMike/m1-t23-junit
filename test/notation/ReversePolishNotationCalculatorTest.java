@@ -21,7 +21,7 @@ public class ReversePolishNotationCalculatorTest {
 
     @Test
     public void shouldCalculateMultiplication() {
-        Assertions.assertEquals(6, calculator.calculatePolishNotation("2 3 *"));
+        Assertions.assertEquals(30, calculator.calculatePolishNotation("2 3 5 * *"));
     }
 
     @Test
