@@ -41,4 +41,10 @@ public class ReversePolishNotationCalculatorTest {
     private Executable getExecutableForCalculator(String str) {
         return () -> calculator.calculatePolishNotation(str);
     }
+    
+    /* Привет) Очень круто, что ты сделал проверки исключений!
+    Я думаю можно еще добавить проверку на произвольное количество пробелов,
+    которые между операциями и операндами,
+    а вообще, все супер!
+    */
 }
